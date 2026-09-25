@@ -1,0 +1,34 @@
+<!-- ── Banner CSS ── -->
+<style>
+.banner{background:linear-gradient(135deg,#0C002E 0%,#0e5560 50%,#1a7a80 100%);border-radius:16px;padding:44px 40px 40px;position:relative;overflow:hidden;}
+.banner::before{content:'';position:absolute;top:-60px;right:-60px;width:220px;height:220px;border-radius:50%;background:rgba(63,215,236,.06);}
+.banner-crumb{font-size:11px;color:rgba(255,255,255,.55);margin-bottom:14px;display:flex;align-items:center;gap:6px;}
+.banner-crumb a{color:rgba(255,255,255,.55);text-decoration:none;}
+.banner-crumb a:hover{color:#3FD7EC;}
+.banner h1{font-family:'Chewie',Georgia,serif;font-size:46px;font-weight:500;color:#fff;margin:0 0 10px;white-space:nowrap;}
+.banner h1 em{color:#3FD7EC;font-style:normal;}
+.banner-sub{font-size:16px;color:rgba(255,255,255,.7);margin:0 0 8px;}
+.banner-desc{font-size:13px;color:rgba(255,255,255,.5);margin:0 0 22px;white-space:nowrap;line-height:1.6;}
+.banner-pills{display:flex;gap:8px;flex-wrap:wrap;}
+.banner-pill{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:99px;padding:7px 14px;font-size:12px;color:rgba(255,255,255,.85);}
+</style>
+
+<!-- ── Banner HTML ── -->
+<div class="banner">
+  <div class="banner-crumb">
+    <a href="vega-homepage.html">Home</a>
+    <span>›</span>
+    <a href="vega-tlp-accountant.html">Technical Learning Pathway</a>
+    <span>›</span>
+    <span style="color:#3FD7EC;">Practitioner Level</span>
+  </div>
+  <h1>Junior Level <em>Practitioner</em></h1>
+  <p class="banner-sub">Australia Accountant — Technical Learning Pathway</p>
+  <p class="banner-desc">Your starting point for tax and accounting practice in Australia. Complete all onboarding courses and knowledge bite series to unlock the next level.</p>
+  <div class="banner-pills">
+    <span class="banner-pill">
+      <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      ANZ Region
+    </span>
+  </div>
+</div>
